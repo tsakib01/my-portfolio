@@ -1,0 +1,188 @@
+
+img {
+    background-color: white;
+}
+
+#bio {
+    width: 90vw;
+    white-space: wrap;
+    margin: auto 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#bio span {
+    width: 80vw;
+    display: block;
+    font-size: 0.9rem;
+    color: white;
+    animation: typing 5s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#bio p{
+    order: 1;
+    font-size: 0.9rem;
+    background-color: black;
+    filter: opacity(.75);
+    max-width: 90vw;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    color: white;
+    opacity: 100%;
+}
+
+.highlight1 {
+    color: orange;
+}
+
+.highlight2 {
+    color: lightgreen;
+}
+
+#bio img:hover {
+    background-color: white;
+    /* opacity: 100%; */
+}
+
+.skills-img {
+    order: 2;
+    opacity: 50%;
+    max-width: 90vw;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+#portfolio {
+    width: 90vw;
+    margin: auto 0;
+}
+
+#portfolio a{
+    opacity: 50%;
+}
+
+#portfolio a:hover {
+    opacity: 100%;
+}
+
+.portfolio-img img{
+    display: block;
+    margin: auto 12vw;
+    margin-top: -4rem;
+    width: 70vw;
+}
+
+.project1-img img{
+    display: block;
+    max-width: 80vw;
+    margin: auto 5vw;
+    border-width: 0.3rem;
+    border-radius: 1rem;
+}
+
+
+@media (min-width: 32rem){
+
+    #bio {
+        margin: auto 3vw;
+    }
+
+     #bio p {
+        font-size: 1.3rem;
+        margin-top: 3rem;
+        padding: 2rem;
+     }
+
+
+    #bio span {
+        font-size: 1.5rem;
+    }
+
+    .project1-img img{
+        border-style: solid;
+        border-radius: 2rem;
+        border-width: 1rem;
+        border-color: rgba(128, 128, 128, 30%);
+    }
+
+}
+
+
+@media (min-width: 67.5rem) {
+
+    #bio {
+        margin: auto 1vw;
+    }
+
+
+    #bio p {
+        order: 2;
+        width: 40vw;
+        margin: auto 25vw;
+        margin-top: -25rem;
+    }
+
+    #bio p span {
+        width: 40vw;
+    }
+
+    .skills-img{
+        order: 1;
+        width: 90vw;
+        display: block;
+        margin-top: 5vh;
+    }
+
+    #portfolio{
+        width: 50vw;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+
+    .project1-img img {
+        width: 40vw;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .project1-img img:hover {
+        width: 45vw;
+        transition-duration: 1s;
+    }
+
+    .portfolio-img img {
+       width: 30vw; 
+       margin: auto 10vw; 
+       margin-top: -7vh;
+    }
+
+}
+
+@media (min-width: 100rem) {
+    #bio p {
+        margin-top: -35rem;
+        font-size: 1.5rem;
+    }
+
+    #bio p span {
+        font-size: 1.7rem;
+    }
+
+    #portfolio{ 
+        margin-top: 20rem;
+    }
+}
+
+
+@media (min-width: 120rem) {
+    #bio p {
+        margin-top: -58vh;
+    }
+}

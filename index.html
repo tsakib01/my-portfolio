@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="https://fonts.cdnfonts.com/css/gt-pressura-mono" as="style">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/normalize.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="css/starter.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
+        <noscript><link rel="stylesheet" href="css/normalize.css"></noscript>
+        <noscript><link rel="stylesheet" href="css/starter.css"></noscript>
+        <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+        <script src="js/main.js" defer></script>
+        <script src="js/vanilla-lazyload.js" defer></script>
+        <script src="js/lazy-load.js" defer></script>
+        <title>Portfolio | Tosrif Jahan Sakib</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">
+                    <h1>Tosrif Jahan Sakib</h1>
+                    <h2>Front-End and Web Developer</h2>
+                </a>
+            </div>
+            <nav>
+                <a href="#bio">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div id="bio">
+                <img class="skills-img lazy" alt="Showing hard skills like HTML, CSS, JavaScript, etc." 
+                    src="img/skills-img_400.png" data-src="img/skills-img_800.png"
+                    data-srcset="
+                    img/skills-img_400.png   400w,
+                    img/skills-img_800.png   800w,
+                    img/skills-img_1200.png 1200w,
+                    img/skills-img_2000.png 2000w" 
+                    data-sizes="(min-width:75rem) 50vw, 100vw">
+                <p>
+                <span>Hello! I am Tosrif Jahan Sakib.</span>
+                I have a passion for <strong class="highlight1">designing</strong> and <strong class="highlight1">coding</strong> for websites 
+                which are <strong class="highlight2">responsive</strong>, <strong class="highlight2">reliable</strong> and 
+                <strong class="highlight2">fast</strong>. I have built websites for renting places and booking tickets for exhibitions. 
+                Apart from work, I like travelling, reading books and meeting new people.</p>
+            </div>
+            <div id="portfolio">
+                <div class="project1-img">
+                        <a href="portfolio-project1.html">
+                            <img alt="Link to SpaceCrasher's home page analysis"  src="img/project1-home_400.png"
+                            class="lazy" data-src="img/project1-home_800.png"
+                            data-srcset="
+                            img/project1-home_400.png   400w,
+                            img/project1-home_800.png   800w,
+                            img/project1-home_1200.png 1200w,
+                            img/project1-home_2000.png 2000w" 
+                            data-sizes="(min-width:75rem) 50vw, 100vw">
+                        </a>
+                </div>
+                <div class="portfolio-img">
+                    <img alt="Showing portfolio text in large font-size" src="img/p3-portfolio-img_400.png"
+                    class="lazy" data-src="img/p3-portfolio-img_800.png"
+                    data-srcset="
+                    img/p3-portfolio-img_400.png   400w,
+                    img/p3-portfolio-img_800.png   800w,
+                    img/p3-portfolio-img_1200.png 1200w,
+                    img/p3-portfolio-img_2000.png 2000w" 
+                    data-sizes="(min-width:75rem) 50vw, 100vw">
+                </div>
+            </div>
+        </main>
+        <footer id="contact">
+            <div>
+                <p><strong>Email:</strong> tosrifjahansakib@gmail.com</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/tosrifjsakib/">
+                        <img alt="Link to LinkedIn profile for connecting" width="50" height="50" src="img/linkedin.png"
+                            class="lazy" data-src="img/linkedin.png">
+                    </a></li>
+                    <li><a href="https://twitter.com/tojasa">
+                        <img alt="Link to Twitter profile for connecting" width="50" height="50" src="img/twitter.png"
+                            class="lazy" data-src="img/twitter.png">
+                    </a></li>
+                    <li><a href="https://personalspace-x1p3123.slack.com/">
+                        <img alt="Link to Slack profile for connecting" width="50" height="50" src="img/slack.png"
+                            class="lazy" data-src="img/slack.png">
+                    </a></li>
+                </ul>
+                <div class="footer-nav">
+                    <a href="#bio">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

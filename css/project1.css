@@ -1,0 +1,176 @@
+img {
+    max-width: 100%;
+}
+
+main{
+    margin: auto 1.5rem;
+}
+
+.project-name {
+    font-size: 1.5rem;
+}
+
+.nav-button {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    margin-top: -3rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.nav-button:hover {
+    background-color: rgba(128, 128, 128, 50%);
+}
+
+#elements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: 1vw; */
+}
+
+#css-forms img, #calendar img{
+    border-style: solid;
+    color: rgba(128, 128, 128, 50%);
+}
+
+#takeaways p{
+    max-width: 60rem;
+}
+
+
+/*--- Code reused from style guide for p2 ----*/
+.p1-colors div{
+    font-style: normal;
+    font-weight: 300;
+    padding: 0.5rem;
+    padding-top: 10rem;
+}
+
+.p1-colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.medium-aquamarine{
+    background-color: #56E39F;
+}
+  
+.terra-cotta {
+    background-color: #E87461;
+    color: white;
+}
+  
+.dark-salmon {
+    background-color: #DD9787;
+}
+  
+.raisin-black {
+    background-color: #332E3C;
+    color: white;
+}
+  
+  .air-super-blue {
+    background-color: #74A4BC;
+    color: white;
+}
+
+/* --------------------------------------- */
+
+@media (min-width: 30rem) {
+    main h3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    p {
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+
+    .p1-colors div{
+        padding: 1.5rem;
+        padding-top: 10rem;
+    }
+
+    main {
+        max-width: 100vw;
+        margin: auto 5vw;
+        margin-top: 4rem;
+    }
+
+    .project-name {
+        font-size: 3rem;
+    }
+
+    #elements {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex-item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #overview {
+        margin: auto 0;
+    }
+
+    #overview img {
+        max-width: 80vw;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    #overview p {
+        margin-top: 2rem;
+    }
+}
+
+
+@media (min-width: 67.5rem) {
+
+    main h2 {
+        color: black;
+        width: 10rem;
+        margin: 1rem auto;
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    #overview img {
+        max-width: 36vw;
+        height: auto;
+    }
+
+    #elements section {
+        width: 36vw;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    #css-forms img {
+        padding: 2.5rem;
+    }
+
+    #overview p {
+        max-width: 36vw;
+        margin-top: 3rem;
+    }
+
+    .flex-item {
+        flex-direction: row;
+        
+    }
+
+}
+
